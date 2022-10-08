@@ -1,0 +1,67 @@
+
+body {
+    background-color: $dark;
+}
+
+/* Size for brand */
+nav .navbar-brand {
+    /* font-family: Lucida Handwriting; */
+    /* font-family: Blippo, fantasy; */
+    /* font-weight: bold; */
+    font-size: xx-large;
+}
+
+.blue-color {
+    color: #6EE0E0;
+}
+
+.dark-blue {
+    color: #6EE0E0;
+}
+
+.blue-bg {
+    background-color: #5CB5B5;
+}
+
+.blue-bg:hover {
+    background-color: #366B6B;
+}
+
+.text-right {
+    text-align: right!important;
+}
+
+.text-left {
+    text-align: left!important;
+}
+
+.border-0 {
+    border: 0!important;
+}
+
+.iex {
+    text-decoration: none;
+    color: grey;
+}
+
+.iex:hover {
+    color: white;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+}
+
+.error {
+    color: #ff6a6a;
+}

@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+    <h5 class="text-light">
+        A share of {{name}} ({{stock}}) costs {{ usd(price) }}.
+    </h5>
+{% endblock %}
