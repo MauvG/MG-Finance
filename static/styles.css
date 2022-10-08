@@ -11,6 +11,14 @@ nav .navbar-brand {
     font-size: xx-large;
 }
 
+.text-white {
+    color: #fff;
+}
+
+.text-white:hover {
+    color: #858585;
+}
+
 .blue-color {
     color: #6EE0E0;
 }
